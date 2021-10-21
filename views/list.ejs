@@ -7,6 +7,13 @@
     <title>To Do List</title>
 </head>
 <body>
-    <h1>It's a weekday!</h1>
+
+    if (kindOfDay === 0 || kindOfDay === 6) {
+        <h1 style="color:purple"> <%= kindOfDay %> List</h1>
+    } else {
+        <h1 style="color:rgb(123, 195, 236)"> <%= kindOfDay %> List</h1>
+
+    }
+
 </body>
 </html>
